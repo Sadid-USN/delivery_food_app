@@ -14,7 +14,7 @@ class RestaurantScreen extends StatefulWidget {
 
 class _RestaurantScreenState extends State<RestaurantScreen> {
   bool isLiked = false;
-  double sizeButton = 35;
+  double sizeButton = 40;
   _buildMenuItem(Food menuItem) {
     return Center(
       child: Stack(
